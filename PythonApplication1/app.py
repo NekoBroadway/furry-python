@@ -1,11 +1,11 @@
-#Exc 5 - Write a Python program which accepts the user's first and last name and print them in reverse order with spaces between them
+#Exc 6 - Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers
 
-f_name = input("Enter your firstname: ")
-l_name = input("Enter your lastname: ")
+seq = input("Enter some number separated with commas: ")
 
-name = list()
-name[:] = f_name + " " + l_name
-name.reverse()
+my_list = list()
+my_list[:] = seq.split(", ")
 
-res = ""
-print(res.join(name), end = "!\n")
+my_tuple = tuple(my_list)
+
+print(f"List - {my_list}")
+print(f"Tuple - {my_tuple}")
