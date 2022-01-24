@@ -1,7 +1,9 @@
-#Exc 3 - Print to display current date and time YYYY-MM-DD HH:MM:SS
+#Exc 4 - Write a Python program which accepts the radius of a circle from the user and compute the area
 
-from datetime import datetime
+from math import pi
 
-today = datetime.now()
 
-print("Actual datetime is - {}-{}-{} {}:{}:{}".format(today.year, today.month, today.day, today.hour, today.minute, today.second))
+radius = input("Podaj średnicę koła: ")
+area = pow(float(radius), 2) * pi
+
+print(f"Pole koła o średnicy {radius} równa się {area}")
