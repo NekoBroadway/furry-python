@@ -1,6 +1,7 @@
-#Exc 2 - Print current Python version
+#Exc 3 - Print to display current date and time YYYY-MM-DD HH:MM:SS
 
-import sys
+from datetime import datetime
 
-v = sys.version
-print(f"Python Version is - {v}")
+today = datetime.now()
+
+print("Actual datetime is - {}-{}-{} {}:{}:{}".format(today.year, today.month, today.day, today.hour, today.minute, today.second))
