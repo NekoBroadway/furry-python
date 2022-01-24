@@ -1,7 +1,1 @@
-#Exc 3 - Print to display current date and time YYYY-MM-DD HH:MM:SS
-
-from datetime import datetime
-
-today = datetime.now()
-
-print("Actual datetime is - {}-{}-{} {}:{}:{}".format(today.year, today.month, today.day, today.hour, today.minute, today.second))
+#Exc 5 - Write a Python program which accepts the user's first and last name and print them in reverse order with spaces between them
