@@ -1,1 +1,1 @@
-#There were some excercises from Python
+#Here will be some excercises from Python
