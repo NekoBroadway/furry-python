@@ -1,11 +1,8 @@
-#Exc 7 - Write a Python program to accept a filename from the user and print the extension of that
+#Exc 8 - Write a Python program to display the first and last colors from the following list
+#color_list = ["Red", "Green", "White", "Black"]
 
-import os
+color_list = ["Red", "Green", "White", "Black"]
 
-path = input("Enter full path to file: ")
-
-if os.path.exists(path):
-    ex = os.path.basename(path).split(".") 
-    print(f"Type of your file is \"{ex[1]}\"")
-else:
-    print("This file does not exists!")
+print(f"Color list - {color_list}")
+print(f"First color of colorlist: {color_list[0]}")
+print(f"Last color of colorlist: {color_list[-1]}")
